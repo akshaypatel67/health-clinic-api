@@ -17,9 +17,5 @@ router.delete("/:id", handleDeleteRecord);
 
 router.put("/addHistory/:id", handleAddHistory);
 
-// router.get("/getall", handleGetURL);
-
-// router.get("/analytics/:shortId", handleGetAnalytics);
-
 
 module.exports = router;
